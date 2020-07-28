@@ -1,0 +1,129 @@
+<DOCKTYPE>
+<HTML>
+    <HEAD>
+        <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Do+Hyeon&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Do+Hyeon&family=Unna:ital,wght@1,700&display=swap" rel="stylesheet">
+    </HEAD>
+    
+    
+    <BODY onload="myfunction()">
+        <header>
+            <div class="loading">
+            <div id="loader"></div>
+            </div>
+            <div class="navbar">
+        
+                <span id="open" class="open" onclick="openNav()">&#9776</span>
+                
+                <div class="logo" id="logo">foody</div>
+                
+                
+            
+            <div class="nav" id="nav">
+                
+                <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+                
+                <a href="#logo">Home</a>
+                <a  href="#Services">Services</a>
+                <a  href="#About">About</a>
+                <a  href="#Contact">Contacts</a>
+            <a  href="#Feedback">Feedback</a>
+            
+            
+            </div>
+            </div>
+    
+            <!-- navbaar ends here -->
+            
+            <div class="special" id="special">
+            
+            “After a good dinner one can forgive anybody, even one's own relations.”
+~ Oscar Wilde, A Woman .
+            
+            
+            </div>
+            
+        </header>
+        
+      <div class="service" id="Services">
+          <!--   <video autoplay muted loop id="layout" width="200" height="250">
+           
+            <source src="video%20(2).mp4" type="video/mp4">
+                 
+           </video>
+          
+          
+         --> 
+          <h1>Service</h1>
+          
+          <h3> What We Offer</h3>
+          <h4>CATEGORIES</h4>
+          <H5><UL><LI><a href="BREAKFAST.HTML">BREAKFAST</a></LI>
+              <LI><a href="LUNCH.HTML">LUNCH</a></LI>
+              <LI><a href="DINNER.HTML">DINNER</a></LI></UL></H5>
+        </div>
+        
+<div class="about" id="About">
+        
+        
+        <h1>ABOUT</h1>
+          
+          <h2>Who We Are</h2>
+          
+    <p>this website will provide you ton's of recipe's. foody has a varity of food articles and recepie's here ypou can find what you want because good food makes everyone smile. foody has now lots of users.</p>
+        </div>
+        
+        <div class="contact" id="Contact"><h1>contact</h1>
+    <form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="first name"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="last name"><br>
+      <label for="fname">email:</label><br>
+      <input type="text" id="email" name="fname" value="email"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+        </div>
+        
+        <div class="footer">@foody_corporation</div>
+        
+      
+    <script>
+        var preloader= document.getElementById("loader");
+        function myfunction(){
+            preloader.style.display="none";
+        }
+        
+        
+        
+        
+        
+        
+        function openNav(){
+            document.getElementById("open").style.display="none";
+             document.getElementById("nav").style.width="100%";
+            
+        }
+         function closeNav(){
+            document.getElementById("nav").style.width="0";
+             document.getElementById("open").style.display="block";
+        }
+        
+        
+        </script>
+    </BODY>
+    
+    
+    
+    
+    </HTML></DOCKTYPE>
